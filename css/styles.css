@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7 em;
+}
+
+a{
+  /* color de caritas en inicio*/
+  color: LAVENDER;
+  text-decoration: none;
+}
+h1,h2,h3{
+  padding-bottom: 20px;
+}
+p{
+  margin: 10px 0;
+}
+
+#navar{
+  background: DARKKHAKI;
+  color:yellow;
+  overflow: auto;
+}
+#navar a {
+color:DARKRED;
+/* WARNING: texto de la barra de arriba */
+}
+#navar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navar ul{
+list-style: none;
+float: right;
+}
+#navar ul li{
+  float: left;
+}
+#navar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navar ul li a:hover,
+#navar ul li a.current{
+  border-color: #green;
+  background: #pink;
+  color: red;
+}
+/* paso 5 color de texto de cuidado*/
+.text-primary{
+  color: red;
+}
+.text-primari{
+  color: IVORY;
+}
+.lead{
+  font-size: 20px;
+}
+.btn{
+  display: inline-inline-block;
+  font-size: 18px;
+  color: yellow;
+  /* WARNING: acerca de */
+  background: ;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+
+}
+.btn:hover{
+  background: DARKORANGE;
+}
+
+#welcome{
+  background: url('../imagenes/1.jpg') no-repeat center center/cover;
+  height: 600px;
+  }
+#welcome .welcome-content{
+  color:black;
+text-align: center;
+padding-top: 10px;
+}
+#welcome .welcome-content h1{
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+#welcome .welcome-content p{
+  padding-bottom: 20px;
+
+}
+.l-heding{
+  font-size: 20px;
+}
+.py-1{padding: 10px 0;}
+.py-2{padding: 20px 0;}
+.py-3{padding: 30px 0;}
+
+.btn-light{
+  background: BROWN;
+  color: MAROON;
+}
+.bg-dark{
+  background: GRAY;
+  color:CRIMSON;
+}
+.bg-light{
+  background: DARKGRAY;
+  color: green;
+}
+.bg-primary{
+  background: GOLDENROD;
+  color: SANDYBROWN;
+}
+#about-info .info-right{
+  float: right;
+  width: 50%;
+  min-height: 100%;
+
+}
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+
+}
+#about-info .info-left{
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+/* paso 6*/
+#main-footer{
+  text-align: center;
+  background: GAINSBORO;
+  color: blue;
+  padding: 10px;
+  /* pading determina que tan grande es el color hacia abajo*/
+}
+#main-footer .main-footer-content{
+  color:Green;
+text-align: center;
+padding-top: 10px;
+}
+#main-footer .main-footer-content h1{
+  font-size: 60px;
+  line-height:  1.2 em;
+}
+#main-footer .main-footer-content p{
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+#main-footer .info-right{
+  float: right;
+  width: 50%;
+  min-height: 100%;
+  background: WHITE;
+  color:red;
+  }
+  #main-footer .info-right h1{
+  color:red;
+}
+#main-footer .info-right img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  border-radius: 50%;
+
+}
+#main-footer .info-left{
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  background: WHITE;
+}
+#main-footer .info-left h1{
+color:red;
+}
+#main-footer .info-left img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  border-radius: 50%
+}
